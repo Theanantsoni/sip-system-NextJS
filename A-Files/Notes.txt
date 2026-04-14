@@ -1,0 +1,98 @@
+# 💰 SIP Planner - Next.js Web App
+
+A modern and responsive **financial planning web application** built using **Next.js**, designed to help users calculate SIP returns, explore mutual funds, and make smarter investment decisions with a clean UI and intelligent suggestions.
+
+---
+
+## 🚀 Features
+
+- ⚡ Built with Next.js (App Router)
+- 🔐 User Authentication (Login & Register)
+- 📊 SIP Calculator with real-time results
+- 📈 Investment growth visualization (charts)
+- 🤖 Smart mutual fund suggestions (AI-based logic)
+- 💰 Risk-based fund filtering (Low / Mid / High)
+- 📚 Beginner-friendly financial articles
+- 📄 Multiple pages (Home, SIP, Mutual Funds, Articles, Contact)
+- 🎨 Clean, modern, and responsive UI
+- ⚡ Optimized performance and fast rendering
+
+---
+
+## 🧱 Tech Stack
+
+- Next.js (App Router)
+- React.js
+- Tailwind CSS
+- JavaScript (ES6+)
+- Next.js API Routes (Backend logic)
+
+---
+
+## 📁 Project Structure
+
+src/
+├── app/
+│ ├── page.tsx # Home Page
+│ ├── sip/ # SIP Calculator Page
+│ ├── mutualFunds/ # Mutual Funds Page
+│ ├── articles/ # Educational Articles
+│ ├── contact/ # Contact Page
+│ ├── login/ # Login Page
+│ ├── register/ # Register Page
+│ ├── api/ # API Routes (Backend)
+│
+├── components/
+│ ├── HomePage.js
+│ ├── LoginForm.js
+│ ├── SipForm.js
+│ ├── SipResult.js
+│ ├── MutualFunds.js
+│
+├── utils/
+│ ├── sipCalculator.js # SIP calculation logic
+│ ├── sipApi.js # API handling
+
+
+---
+
+## 🖥️ Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/sip-planner
+
+# Navigate to project
+cd sip-planner
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+👉 Open in browser:
+http://localhost:3000
+
+📊 Key Functionalities
+Calculate SIP returns based on amount, duration & interest
+Visualize investment growth with charts
+Get smart mutual fund suggestions based on risk profile
+Learn SIP concepts through built-in articles
+Fully responsive UI for all devices
+🎯 Use Case
+
+This project demonstrates a real-world FinTech application where users can:
+
+Plan investments
+Understand compounding
+Explore mutual fund options
+Make data-driven financial decisions
+
+📬 Contact
+
+For queries or collaboration:
+
+📧 Email: mranantsoni7@gmail.com
+
+🌐 LinkedIn: https://www.linkedin.com/in/anant-soni-b737662a2
